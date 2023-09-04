@@ -227,7 +227,7 @@ class _LightCarouselState extends State<LightCarousel> {
                       borderRadius: widget.borderRadius
                           ? BorderRadius.all(
                               widget.radius ?? const Radius.circular(8.0))
-                          : null,
+                          : BorderRadius.zero,
                       child: Container(
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
